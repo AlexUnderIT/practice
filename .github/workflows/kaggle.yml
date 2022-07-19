@@ -33,7 +33,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Exeute Notebook
-        run: jupyter-execute practice2022.ipynb
+        run: jupyter-execute titanic.ipynb
 
       - name: Login to Kaggle
         run: |
